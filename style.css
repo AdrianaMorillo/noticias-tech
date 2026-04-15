@@ -1,0 +1,39 @@
+body {
+  background-color: #0d0d0d;
+  color: white;
+}
+
+.card {
+  background-color: #1a1a1a;
+  border: 2px solid #ffc107;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 15px #ffc107;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.btn-warning {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+.card-title {
+  color: white !important;
+}
+
+.card-text {
+  color: white !important;
+}
+
+.card {
+  color: white;
+}
